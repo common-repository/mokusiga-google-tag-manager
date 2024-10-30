@@ -1,0 +1,148 @@
+#mokusiga_admin_menu h2{
+    background-color:#464646;
+    color:#ffffff;
+    padding:10px;
+    text-align:center;
+    font-weight:lighter;
+    margin-right:20px;
+
+}
+#mokusiga_admin_menu .message{
+    border:1px dashed grey;
+    background-color:#FFFFCC;
+    padding:0 20px;
+    font-size:110%;
+    margin:20px 15px 0 0;
+}
+#mokusiga_admin_menu .code{
+    font-family:courier-sans, sans-serif;
+    color:green;
+}
+#mokusiga_admin_menu .indentLeft{
+    padding-left:20px;
+}
+#mokusiga_admin_menu #mksg_datalayer_options{
+    border:1px dashed grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px 0;
+}
+#mokusiga_admin_menu form{
+    width:300px;
+    float:left;
+    margin-right:20px;
+}
+#mokusiga_admin_menu form textarea{
+    width:260px;
+    height:100px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    resize:none;
+    padding:10px;
+    text-align:left;
+}
+#mokusiga_admin_menu form .submit:hover{
+
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+    background-color:#f37a1d;
+	background: -moz-linear-gradient(
+		top,
+		#f37a1d 0%,
+		#ac4e07);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f37a1d),
+		to(#ac4e07));
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #f37a1d;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.4);
+}  
+#mokusiga_admin_menu form #mksg_location_custom_text{
+	margin-top:5px;
+}        
+#mokusiga_admin_menu form .submit{
+    float:right;
+
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+    background-color:#ee771c;
+	background: -moz-linear-gradient(
+		top,
+		#f37a1d 0%,
+		#ee771c);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f37a1d),
+		to(#ee771c));
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #f37a1d;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.4);
+
+}
+#mokusiga_admin_menu #mksg_sample{
+    width:300px;
+   
+    float:left;
+
+}
+#mokusiga_admin_menu form, #mokusiga_admin_menu #mksg_sample{
+ height:540px;
+ 
+ }
+#mokusiga_admin_menu #mksg_sample pre{
+    padding:10px 10px 0;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    background-color:#dfdfdf;
+}
+.noBMP{
+    margin:0;padding:0;margin:0;
+}
+.red {
+    color:red;
+}
+#mokusiga_admin_menu .help{
+    color:blue;
+    text-decoration:none;
+    font-style: italic;
+   /* background: url(../images/gnome_dialog_question_16.png) no-repeat;
+    padding-left: 20px;
+    padding-top:2px;
+    min-height: 16px;              */
+}
+#mokusiga_admin_menu .help img{
+    position:relative;
+    top:4px;
+}
+#mokusiga_admin_menu .code strong{
+    color:#f37a1d;
+}
